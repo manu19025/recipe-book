@@ -1,8 +1,7 @@
 body {
-  margin: 0;
-  font-family: 'Segoe UI', sans-serif;
-  background-color: #1a1a1a;
-  color: white;
+  font-family: 'Pacifico', cursive;
+  background: linear-gradient(135deg, #ffe0b2, #ffccbc);
+  color: #13f131;
 }
 
 .container {
@@ -14,9 +13,11 @@ body {
   box-shadow: 0 0 10px rgba(255, 255, 255, 0.1);
 }
 
-h1 {
-  text-align: center;
-  color: #fff;
+h1::before {
+  content: "\f2e7";
+  font-family: "Font Awesome 6 Free";
+  font-weight: 900;
+  margin-right: 10px;
 }
 
 form {
